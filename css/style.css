@@ -1,0 +1,575 @@
+/* Estilo CSS da página Week Food */
+body {
+    margin: 0px 0px 36px 0px ;
+    padding: 0;
+    background-color:#151515;
+}
+
+/* Imagem hero */
+.background-hero {
+    background: url(../img/background-hero.jpg);
+    background-size: cover;
+    position:sticky;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+}
+
+/* Logomarca week food */
+.logo {
+    position: absolute;
+    width: auto;
+    height: 120px;
+    left: 9.03%;
+    top: 7%;
+}
+
+/* Frase inicial */
+.container p{
+    position: absolute;
+    left: 9.03%;
+    bottom: 52%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+/* Frase principal h1 */
+.container h1{
+    position: absolute;
+    left: 9.03%;
+    bottom: 40%;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 55px;
+    color: #F9C200;
+    margin: 0px 0px 0px 0px;
+}
+
+/*Formulário de pré inscrição*/
+.form-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label-hero {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    left: 9.03%;
+    bottom: 24.3%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.input-hero[type="email"] {
+    position: absolute;
+    width: 22%;
+    height: 41px;
+    left: 9.03%;
+    bottom: 15%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 12px
+}
+.input-hero[type="email"]::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #c5c5c5;
+}
+.button-hero[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    position: absolute;
+    left: 33%;
+    bottom: 15%;
+    color: #FFFFFF;
+    background: #A80000;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.button-hero[type="submit"]:hover{
+    background: #F9C200;
+    color: #A80000;
+    cursor: pointer;
+}
+
+/*Sessão de funcionalidades */
+.funcionalities{
+    height: 800px;
+    background-color: #F9C200;
+}
+.mockup {
+position: absolute;
+width: auto;
+height: 672px;
+left: 16%;
+padding-top: 56px;
+
+}
+.funcionalities h2{
+    position: absolute;
+    right: 14.03%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+.funcionalities h3{
+    position: absolute;
+    right: 28%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #A80000;
+    padding-top: 140px;
+}
+.funcionalities ul{
+    position: absolute;
+    width: 364px;
+    height: 520px;
+    right: 23%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    padding-top: 200px;
+    color: #830202;  
+}
+
+/*footer */
+footer {
+    background-color: #A80000;
+    color: #fff;
+    margin-top: auto;
+    height: 360px;
+  }
+
+/*Fotter - Formulário */ 
+footer form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+}
+footer label{
+position: absolute;
+width: 357px;
+height: 60px;
+left: 9.03%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+margin-top: 186px;
+}  
+footer input[type="email"] {
+    position: absolute;
+    width: 416px;
+    height: 41px;
+    left: 9.03%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 12px;
+    margin-top: 360px;
+}
+footer button[type="submit"] {
+padding: 8px 16px;
+border: none;
+position: absolute;
+height: 43px;
+left: 9.03%;
+background: #F9C200;
+border-radius: 16px;
+cursor: pointer;
+margin-top: 466px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #A80000;
+}
+
+/* Footer -  Redes sociais */
+.container-footer h2{
+position: absolute;
+right: 9.03%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24.8px;
+line-height: 30px;
+color: #FFFFFF;
+margin-top: 52px;
+}
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 9.03%;
+    margin-top: 86px;
+}
+.social-icons li {
+    margin: 0 10px;
+} 
+.social-icons a {
+    color: #fff;
+    font-size: 36px;
+} 
+.social-icons a:hover {
+    color: #c3c3c3;
+}
+
+/* Footer - Dúvidas e Parcerias */
+.container-footer h3{
+    position: absolute;
+    right: 9.03%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.8px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 190px;
+}
+.container-footer h6{
+        position: absolute;
+        right: 9.03%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-top: 228px;
+}
+
+/* Footer - Direitos Reservados */
+.container-footer h5{
+position: absolute;
+left: 40%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+margin-top: 370px;
+inline-size: auto;
+}
+
+
+/* Responsividade - Mobile First */
+
+/* TABLET */
+@media only screen and (max-width: 768px) {
+
+/* Tablet - Imagem e texto Hero */
+.background-hero {
+    background: url(../img/background-hero-tablet.jpg);
+    background-size: cover;
+    width:100%;
+}
+.logo {
+    top: 164px;
+}
+.container p {
+   top: 45%;
+}
+.container h1{
+    left: 9.03%;
+    top: 55%;
+    font-size: 44.8276px;
+    line-height: 55px;
+
+}
+
+/* Tablet 768 - Formulário */
+.label-hero {
+    width: 452px;
+    height: 20px;
+    left: 9.03%;
+    top: 810px;
+    font-size: 16px;
+    
+}
+.input-hero[type="email"] {
+    width: 48%;
+    height: 41px;
+    left: 9.03%;
+    top: 860px;
+}
+.button-hero[type="submit"] { 
+    left: 60%;
+    top: 860px;
+    height: 43px;
+}
+
+/* Tablet 768 - Funcionalidades */
+.funcionalities{
+    height: 2600px;
+    margin: 0px;
+}
+.mockup {
+    width: 78%;
+    height: auto;
+    margin-top: 240px;
+    left: 11%;
+}
+.funcionalities h2 {
+    font-size: 48px;
+    line-height: 54px;
+    left: 11%;
+    margin-top: 32px;
+    padding: 0;
+}
+.funcionalities h3 {
+    font-size: 48px;
+    line-height: 29px;
+    margin-top: 1500px;
+}
+.funcionalities ul {
+    width: 80%;
+    left: 8%;
+    height: auto;
+    margin-top: 1560px;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+/* Tablet 768 - Footer */
+.container-footer label{
+    width: 257px;
+    left: 9.03%;
+    font-size: 16px;
+}  
+.container-footer input[type="email"] {
+    position: absolute;
+    width: 40%;
+    height: 41px;
+    left: 9.03%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 12px;
+    margin-top: 360px;
+}
+.container-footer button[type="submit"] {
+padding: 8px 16px;
+border: none;
+position: absolute;
+width: 228px;
+height: 43px;
+left: 9.03%;
+background: #F9C200;
+border-radius: 16px;
+cursor: pointer;
+margin-top: 466px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #A80000;
+}
+
+/* Footer -  Redes sociais */
+.container-footer h2{
+font-weight: 700;
+font-size: 16px;
+margin-top: 66px;
+}
+.social-icons {
+    margin-top: 106px;
+}
+
+/* Footer - Dúvidas e Parcerias */
+.container-footer h3{
+    font-size: 16px;
+    margin-top: 180px;
+}
+.container-footer h6{
+        font-size: 16px;
+        margin-top: 216px;
+}
+
+/* Footer - Direitos Reservados */
+.container-footer h5{
+    left: 30%;
+}
+}
+
+/* MOBILE */
+@media only screen and (max-width: 418px) {
+
+.background-hero {
+    display: flex;
+    background: url(../img/background-hero-mobile.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+.logo {
+    top: 48px;
+}
+.container p {
+   top: 27%;
+   font-size: 24px;
+   line-height: 30px;
+}
+.container h1{
+   width: 320px;
+    left: 9.03%;
+    top: 40%;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+/* mobile 418 - Formulário */
+.label-hero {
+    width: 318px;
+    height: 36px;
+    left: 9.03%;
+    top: 67%;
+    font-size: 16px;
+    line-height: 30px;
+}
+.input-hero[type="email"] {
+    width: 70%;
+    height: 41px;
+    left: 9.03%;
+    top: 77%;
+}
+.button-hero[type="submit"] { 
+    left: 9.03%;
+    top: 85%;
+    height: 41px;
+}
+
+/* Mobile 418 - Funcionalidades */
+.funcionalities {
+    height: 1690px;
+    margin: 0px;
+}
+.mockup {
+    width: 78%;
+    height: auto;
+    margin-top: 240px;
+    left: 11%;
+}
+.funcionalities h2 {
+    font-size: 24px;
+    line-height: 44px;
+    left: 11%;
+    margin-top: 32px;
+}
+.funcionalities h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 840px;
+    left: 8%;
+}
+.funcionalities ul {
+    width: 300px;
+    left: 6%;
+    height: auto;
+    margin-top: 860px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+/* Mobile 418 - Footer */
+footer {
+    height: 540px;
+}
+.container-footer label{
+    left: 19%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 160px;
+}
+.container-footer input[type="email"] {
+width: 75%;
+height: 41px;
+left: 11%;
+margin-top: 320px;
+}
+.container-footer button[type="submit"] {
+    margin-top: 430px;
+    left: 21%;
+}
+
+/* Mpbile Footer -  Redes sociais */
+.container-footer h2{
+margin-top: 282px;
+right: 25%;
+}
+.social-icons {
+margin-top: 326px;
+right: 31%;
+}
+
+/* Mobile Footer - Dúvidas e Parcerias */
+.container-footer h3{
+    right: 30%;
+    margin-top: 390px;
+}
+.container-footer h6{
+    margin-top: 428px;
+    right: 23%;
+}
+.container-footer h5{
+left: 15%;
+margin-top: 548px;
+}
+}
