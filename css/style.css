@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+/*
+:root
+--primary var (#0000),
+
 /* Estilo CSS da página Week Food */
 body {
     margin: 0px 0px 36px 0px ;
@@ -137,7 +141,7 @@ body {
 width: 495px;
 height: 80.68px;
 left: 172px;
-top: 625px;
+top: 83.5%;
 }
 
 .background-hero {
