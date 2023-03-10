@@ -388,10 +388,18 @@ gap: 20.31px;
 }
   
 .contatos_footer a:hover {
-    color: #000;
+    color:#0047FF;
 }
-
-
+.footer__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7.73547px 15.4709px;
+    background: #0047FF;
+    color: #FFFFFF;
+    margin-top: 12px;  
+}
 
 /* Footer - Direitos Reservados */
 .container-footer h5{
