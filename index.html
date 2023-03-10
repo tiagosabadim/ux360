@@ -21,20 +21,19 @@
     <nav>
         <ul class="menu">
             <li class="menu__logo">
-            <img class="logo" src="img/Logomarca.svg">
+            <img class="logo" src="img/Logomarca.svg" href="#hero">
             </li>
-            <li class="menu__item"><a href="#" class="">Home</a></li>
-            <li class="menu__item"> <a href="#">Sobre nós</a></li>
-            <li class="menu__item"> <a href="#">Serviços</a></li>
-            <li class="menu__item"><a href="#">Blog</a></li>
-            <li class="menu__item"><a href="#">Contato</a></li>
+            <li class="menu__item"> <a href="#sobre">Sobre nós</a></li>
+            <li class="menu__item"> <a href="#serviços">Serviços</a></li>
+            <li class="menu__item"><a href="Blog">Blog</a></li>
+            <li class="menu__item"><a href="#Contato">Contato</a></li>
             <li>
             <button class="menu__button" type="submit">Entrar em contato</button>
             </li> 
           </ul>
     </nav>
   </header>
-  <section class="hero" imput="hero">
+  <section id="hero" imput="hero">
         <img class="arco" src="img/arco.png">
         <p class="produto">Você tem um produto ou quer criar um, saiba que...</p>
         <h1>você não é seu <a>usuário!</a></h1>
@@ -43,34 +42,79 @@
         <div class="background-hero"></div>
   </section>
   <img class="divisor" src="img/balls_effect.png">
-  <section class="sobre">
+  <section id="sobre">
     <div class="titulo_sobre">
     <h2>/ sobre <a>nós</a></h2> 
     </div>
     <div class="conteudo_sobre">
       <img class="image-sobre" src="img/ux-design.jpg">
-      <p>Contamos com uma equipe experiente, adotamos uma abordagem com visão 360, que nos permite analisar todos os aspectos do problema em questão e, assim, encontrar soluções inovadoras e eficazes. 
-      Além disso, nossa busca pela transformação é impulsionada pelo design centrado no usuário, que nos ajuda a entender as necessidades e expectativas dos usuários em seu contexto real, resultando em serviços e experiências mais humanas e satisfatórias.
+      <p>Contamos com uma equipe experiente, adotamos uma abordagem com visão 360, que nos permite analisar todos os aspectos do problema em questão e, assim, encontrar soluções inovadoras e eficazes.<br><br>
+      Além disso, nossa busca pela transformação é impulsionada pelo design centrado no usuário, que nos ajuda a entender as necessidades e expectativas dos usuários em seu contexto real, resultando em serviços e experiências mais humanas e satisfatórias.<br><br>
       Por fim, nosso compromisso em fornecer soluções integradas é evidente em cada projeto em que trabalhamos, garantindo que consideremos todos os aspectos, desde as pesquisas iniciais até a implementação e entrega final.</p>
     </div>
   </section>
-  <footer>
-        <div class="container-footer">
-            <form action="">
-            <label for="email">Seja o primeiro a testar e ganhe beneficios exclusivos!</label>
-            <input type="email" placeholder="Digite seu e-mail">
-            <button type="submit">Entrar na lista de espera</button>
-            </form>
-            <h2>Siga nossas redes sociais</h2>
-            <ul class="social-icons">
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-            <h3>Dúvidas e Parcerias</h3>
-            <h6>contato@weekfood.com.br</h6>
-            <h5 class="direitos">Todos os direitos reservados ® weekfood.com.br</h5>
+  <img class="divisor_serviços" src="img/balls_effect.png">
+  <section id="serviços">
+    <div class="titulo_serviços">
+    <h2>/ serviços</h2> 
+    </div>
+    <div class="conteudo_serviços">
+      <img class="image-sobre" src="img/ux-design.jpg">
+    </div>
+  </section>
+  <footer id="Contato">
+    <div class="logo_end_footer">
+      <div class="logo_footer">
+        <img src="img/Logomarca.svg">
+      </div>
+      <div class="end_footer">
+        <h2>Endereço</h2>
+        <p>São Paulo-SP | Brasil</p>
+      </div>
+    </div>
+    <div class="links_footer">
+      <div>
+        <ul class="menu_footer">
+          <li>
+            <p>Menu</p>
+          </li>
+          <li class="footer__item"> <a href="#sobre">Sobre nós</a></li>
+          <li class="footer__item"> <a href="#serviços">Serviços</a></li>
+          <li class="footer__item"><a href="Blog">Blog</a></li>
+          <li class="footer__item"><a href="#Contato">Contato</a></li>
+        </ul>
         </div>
-    </footer>   
+        <div>
+        <ul class="serviços_footer">
+          <li>
+           <p>Serviços</p>
+          </li>
+          <li class="footer__item"> <a href="#sobre">Sobre nós</a></li>
+          <li class="footer__item"> <a href="#serviços">Serviços</a></li>
+          <li class="footer__item"><a href="Blog">Blog</a></li>
+          <li class="footer__item"><a href="#Contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dados_footer">
+      <div class="contatos_footer">
+        <a href="https://api.whatsapp.com/send?phone=SEUNUMERODETELEFONE">
+          <i class="fa fa-whatsapp"></i>
+          17-99244-1128 /  11-993261456
+        </a>
+        <a href="mailto:contato@ux360.com.br">
+          <i class="fa fa-envelope"></i>
+          contato@ux360.com.br
+        </a>
+        <a href="http://www.ux360.com.br">
+          <i class="fa fa-globe"></i>
+          www.ux360.com.br
+        </a>
+        <a>
+        <button class="footer__button" type="submit">Entrar em contato</button>
+        </a>
+      </div>
+    </div>
+  </footer>   
 </body>   
 </html>
