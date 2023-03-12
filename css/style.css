@@ -178,7 +178,7 @@ height: 200px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 107px;
     color: #87898A;
     left: 15.03%;
@@ -187,7 +187,7 @@ height: 200px;
 }
 #sobre a{
     font-weight: 700;
-    font-size: 71.3333px;
+    font-size: 60px;
 }
 #sobre p{
    
@@ -240,6 +240,11 @@ gap: 32px;
     padding-top: 48px;
 }
 
+.text_services a {
+    font-weight: 700;
+    font-size: 60px; 
+}
+
 .text_services h4{
     font-family: 'Montserrat';
     font-style: normal;
@@ -257,7 +262,8 @@ margin: 0;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 71px;    
+    gap: 71px;
+    z-index: 999;    
 }
 .uxresearch {
     display: flex;
@@ -398,7 +404,7 @@ list-style: none;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 71px;    
+    gap: 71px;   
 }
 .uxwriting {
     display: flex;
