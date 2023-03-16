@@ -201,6 +201,9 @@ height: 200px;
     height: 92px;
     transform: rotate(180deg);
 }
+
+/* Sessão Serviços */
+
 .services {
     display: flex;
     flex-direction: column;
@@ -211,21 +214,21 @@ height: 200px;
     height: 1200px;
 }
 .text_services {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
 }
 .text_services h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
-    line-height: 107px;
-    color: #87898A; 
+    line-height: 107px; 
     margin: 0;
     padding-top: 48px;
+    color: #87898A; 
 }
 .text_services a {
     font-weight: 700;
@@ -237,11 +240,13 @@ gap: 32px;
     font-weight: 400;
     font-size: 17.9653px;
     line-height: 22px;
-    color: #1E1E1E;
     width: 1082px;
-height: 110px;
-margin: 0;
+    height: 110px;
+    margin: 0;
+    color: #1E1E1E;
 }
+
+/* Primeira coluna de serviços */
 
 .primary_colum {
     display: flex;
@@ -251,18 +256,19 @@ margin: 0;
     gap: 71px;
     z-index: 999;    
 }
+
+/* UX Research */
 .uxresearch {
     display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: flex-start;
-padding: 0px;
-gap: 19.16px;
-
-width: 506.07px;
-height: 207.75px;
-left: 184.07px;
-top: 1824.85px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19.16px;
+    width: 506.07px;
+    height: 207.75px;
+    left: 184.07px;
+    top: 1824.85px;
 } 
 .icon_research {
     width: 128px;
@@ -296,41 +302,31 @@ width: 460px;
     text-align: left;
     margin: 0;
 }
-.details {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14.1955px;
-    line-height: 30px;
-    color: #0047FF;
-    text-decoration: none;
-}
 
-
+/* UI Design */
 .uidesign {
     display: flex;
-flex-direction: row;
-justify-content: left;
-align-items: flex-start;
-padding: 0px;
-gap: 19.16px;
-
-width: 506.07px;
-height: 207.75px;
-left: 184.07px;
-top: 1824.85px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19.16px;
+    width: 506.07px;
+    height: 207.75px;
+    left: 184.07px;
+    top: 1824.85px;
 } 
 .icon_design {
     width: 128px;
     height: auto;
 }
 .text_design {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-start;
-padding: 0px;
-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 460px;
 }
 .text_design h3 {
     font-family: 'Montserrat';
@@ -338,9 +334,9 @@ width: 460px;
     font-weight: 700;
     font-size: 19.9295px;
     line-height: 30px;
-    color: #0047FF;
     margin: 0;
     padding-top: 12px;
+    color: #0047FF;
 }
 .text_design p {
     font-family: 'Montserrat';
@@ -353,11 +349,11 @@ width: 460px;
     margin: 0;
 }
 .expand_design{
-display: none;
-flex-direction: column;
-align-items: flex-start;
-padding: 0;
-gap: 9px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 9px;
 }
 .expand_design ul{
     margin: 0;
@@ -365,14 +361,15 @@ gap: 9px;
 }
 .expand_design li{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 42px;
-color: #1E1E1E;
-list-style: none;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 42px;
+    list-style: none;
+    color: #1E1E1E;
 }
+
+/* segunda coluna de serviços */
 
 .secondary_colum {
     display: flex;
@@ -381,6 +378,8 @@ list-style: none;
     padding: 0px;
     gap: 71px;   
 }
+
+/* UX Writing */
 .uxwriting {
     display: flex;
 flex-direction: row;
@@ -426,28 +425,8 @@ width: 460px;
     text-align: left;
     margin: 0;
 }
-.expand_writing{
-display: none;
-flex-direction: column;
-align-items: flex-start;
-padding: 0;
-gap: 9px;
-}
-.expand_writing ul{
-    margin: 0;
-    padding:0;
-}
-.expand_writing li{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 42px;
-color: #1E1E1E;
-list-style: none;
 
-}
-
+/* Desenvolvimento */
 .desenvolvimento {
     display: flex;
 flex-direction: row;
@@ -493,26 +472,16 @@ width: 460px;
     text-align: left;
     margin: 0;
 }
-.expand_desenvolvimento{
-display: none;
-flex-direction: column;
-align-items: flex-start;
-padding: 0;
-gap: 9px;
-}
-.expand_desenvolvimento ul{
-    margin: 0;
-    padding:0;
-}
-.expand_desenvolvimento li{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 42px;
-color: #1E1E1E;
-list-style: none;
 
+/* Botão Detalhes */
+.details {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1955px;
+    line-height: 30px;
+    color: #0047FF;
+    text-decoration: none;
 }
 
 /*footer */
