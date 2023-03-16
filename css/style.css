@@ -499,6 +499,7 @@ footer {
     gap: 60px;
     position: absolute;
 }
+/*Logo e endereço*/
 .logo_end_footer {
     display: flex;
     flex-direction: column;
@@ -548,6 +549,7 @@ footer {
     margin: 0;
 }
 
+/*Menu e Serviços Links*/
 .links_footer {
     display: flex;
     flex-direction: row;
@@ -556,6 +558,7 @@ footer {
     gap: 80px;
     margin-top: 48px;
 }
+/*Menu*/
 .menu_footer {
     display: flex;
     flex-direction: column;
@@ -581,6 +584,7 @@ footer {
     color: #FFFFFF;
     text-decoration: none;
 }
+/*Serviços*/
 .serviços_footer{
     display: flex;
     flex-direction: column;
@@ -619,7 +623,7 @@ footer {
     text-decoration: none;
 }
 
-
+/*Contatos e Redes sociais*/
 .dados_footer{
 display: flex;
 flex-direction: column;
@@ -628,15 +632,14 @@ padding: 0px;
 gap: 62.85px;
 margin-top: 48px;
 }
-
+/*Contatos*/
 .contatos_footer {
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 20.31px;
-}
-  
+} 
 .contatos_footer a {
     font-family: 'Montserrat';
     font-style: normal;
@@ -645,13 +648,11 @@ gap: 20.31px;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
-}
-  
+} 
 .contatos_footer a i {
     font-size: 20px;
     margin-right: 5px;
 }
-  
 .contatos_footer a:hover {
     color:#0047FF;
 }
@@ -665,7 +666,7 @@ gap: 20.31px;
     color: #FFFFFF;
     margin-top: 12px;  
 }
-
+/*Redes Sociais*/
 .redes_footer {
     display: flex;
     flex-direction: column;
@@ -694,8 +695,7 @@ margin: 0;
     width: 24.17px;
     height: 24.17px;  
 }
-
-/* Footer - Direitos Reservados */
+/* Direitos Reservados */
 .direitosreservados{
     position: absolute;
     font-family: 'Montserrat';
@@ -706,3 +706,4 @@ margin: 0;
     margin-top: 350px;
     inline-size: auto;
 }
+
