@@ -3,17 +3,12 @@
     box-sizing: border-box;
 }
 
-/*
-:root
---primary var (#0000),
-
-/* Estilo CSS da página Week Food */
 body {
     margin: 0px 0px 36px 0px ;
     padding: 0;
     background-color: #0A0D20;
 }
-
+/* Menu header */
 .menu {
     display: flex;
     position:absolute;
@@ -24,12 +19,10 @@ body {
     list-style: none;
     padding: 0;
 }
-
 .menu__logo {
     padding-top: 16px;
     list-style: none;
 }
-
 .menu__item a {
     font-family: 'Montserrat';
     font-style: normal;
@@ -41,11 +34,9 @@ body {
     text-decoration: none;
     padding-top: 16px;
 }
-
 .menu__item a:hover {
     color:  #0047FF;
 }
-
 .menu__button[type="submit"] {
     margin-left: 184px;
     padding: 12px 16px;
@@ -60,13 +51,14 @@ body {
     line-height: 20px;
     cursor: pointer;
 }
+
 .arco {
   position: absolute;
   right: 0%;
   top: 160px;
 }
 
-/* Chamada do site */
+/* Home do site */
 .produto{
     position: absolute;
     left: 15.03%;
@@ -134,16 +126,15 @@ body {
     cursor: pointer;
 }
 
-
-
 .divisor {
     position: absolute;
-width: 495px;
-height: 80.68px;
-left: 172px;
-top: 83.5%;
+    width: 495px;
+    height: 80.68px;
+    left: 172px;
+    top: 83.5%;
 }
 
+/* Foto de fundo principal */
 .background-hero {
     background: url(../img/Backgroundux360-min.jpg);
     background-size: cover;
@@ -153,7 +144,6 @@ top: 83.5%;
     top: 0;
     z-index: -1;
 }
-
 
 /*Section Sobre*/
 #sobre{
@@ -220,7 +210,6 @@ height: 200px;
     background-color: #FFFFFF;
     height: 1200px;
 }
-
 .text_services {
 display: flex;
 flex-direction: column;
@@ -228,7 +217,6 @@ align-items: flex-start;
 padding: 0px;
 gap: 32px;
 }
-
 .text_services h2{
     font-family: 'Montserrat';
     font-style: normal;
@@ -239,12 +227,10 @@ gap: 32px;
     margin: 0;
     padding-top: 48px;
 }
-
 .text_services a {
     font-weight: 700;
     font-size: 60px; 
 }
-
 .text_services h4{
     font-family: 'Montserrat';
     font-style: normal;
@@ -310,28 +296,16 @@ width: 460px;
     text-align: left;
     margin: 0;
 }
-.expand_research{
-display: none;
-flex-direction: column;
-align-items: flex-start;
-padding: 0;
-gap: 9px;
-background-color: #FFFFFF;
-}
-.expand_research ul{
-    margin: 0;
-    padding:0;
-}
-.expand_research li{
+.details {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 42px;
-color: #1E1E1E;
-list-style: none;
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1955px;
+    line-height: 30px;
+    color: #0047FF;
+    text-decoration: none;
 }
+
 
 .uidesign {
     display: flex;
@@ -547,7 +521,7 @@ footer {
     width: 100%;
     background-size: cover;
     color: #fff;
-    height: 400px;
+    height: 380px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -760,6 +734,6 @@ margin: 0;
     font-weight: 400;
     font-size: 12px;
     color: #FFFFFF;
-    margin-top: 410px;
+    margin-top: 350px;
     inline-size: auto;
 }
