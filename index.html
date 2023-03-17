@@ -17,40 +17,51 @@
 </head>
 <body>
   <header>
-    <nav>
+    <div class="header_container">
+      <img class="menu__logo" src="img/Logomarca.svg" href="#hero">
+      <nav>
         <ul class="menu">
-            <li class="menu__logo">
-            <img class="logo" src="img/Logomarca.svg" href="#hero">
-            </li>
-            <li class="menu__item"> <a href="#sobre">Sobre nós</a></li>
-            <li class="menu__item"> <a href="#serviços">Serviços</a></li>
-            <li class="menu__item"><a href="https://ux360br.blogspot.com" target="_blank">Blog</a></li>
-            <li class="menu__item"><a href="#Contato">Contato</a></li>
-            <li>
-            <button class="menu__button" type="submit">Entrar em contato</button>
-            </li> 
-          </ul>
-    </nav>
+          <li class="menu__item"> <a href="#sobre">Sobre nós</a></li>
+          <li class="menu__item"> <a href="#serviços">Serviços</a></li>
+          <li class="menu__item"><a href="https://ux360br.blogspot.com" target="_blank">Blog</a></li>
+          <li class="menu__item"><a href="#Contato">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="menu__button" type="submit">Entrar em contato</button>
+    </div>
   </header>
-  <section id="hero" imput="hero">
-        <img class="arco" src="img/arco.png">
-        <p class="produto">Você tem um produto ou quer criar um, saiba que...</p>
-        <h1>você não é seu <a>usuário!</a></h1>
-        <p class="sucesso">pode doer no inicio, mas essa descoberta te conecta com os principais responsáveis que irão te levar ao sucesso esperado, seus usuários reais.</p>
+
+  <section class="hero" imput="hero">
+    <div class="hero_container">
+      <p class="primeira_frase">Você tem um produto ou quer criar um, saiba que...</p>
+        <div class="chamada">
+          <h2>você não é seu</h2>
+          <div class="palavra_chave">
+            <a>usuário!</a>
+            <img class="sublime" src="img/sublime.svg">  
+          </div>
+        </div>  
+        <p class="segunda_frase">pode doer no inicio, mas essa descoberta te conecta com os principais responsáveis que irão te levar ao sucesso esperado, seus usuários reais.</p>
         <button class="button-hero" type="submit">saiba mais</button>
-        <div class="background-hero"></div>
+      </div>
+    </div>
   </section>
+
+  <img class="arco" src="img/arco.png">
   <img class="divisor" src="img/balls_effect.png">
-  <section id="sobre">
-    <div class="titulo_sobre">
-    <h2>/ sobre <a>nós</a></h2> 
-    </div>
-    <div class="conteudo_sobre">
-      <img class="image-sobre" src="img/ux-design.jpg">
-      <p>Contamos com uma equipe experiente, adotamos uma abordagem com visão 360, que nos permite analisar todos os aspectos do problema em questão e, assim, encontrar soluções inovadoras e eficazes.<br><br>
-      Além disso, nossa busca pela transformação é impulsionada pelo design centrado no usuário, que nos ajuda a entender as necessidades e expectativas dos usuários em seu contexto real, resultando em serviços e experiências mais humanas e satisfatórias.<br><br>
-      Por fim, nosso compromisso em fornecer soluções integradas é evidente em cada projeto em que trabalhamos, garantindo que consideremos todos os aspectos, desde as pesquisas iniciais até a implementação e entrega final.</p>
-    </div>
+
+  <section class="sobre">
+
+      <div class="sobre_title">
+        <h2>/ sobre <a>nós</a></h2> 
+      </div>
+      <div class="conteudo_sobre">
+        <img class="image-sobre" src="img/ux-design.jpg">
+        <p>Contamos com uma equipe experiente, adotamos uma abordagem com visão 360, que nos permite analisar todos os aspectos do problema em questão e, assim, encontrar soluções inovadoras e eficazes.<br><br>
+        Além disso, nossa busca pela transformação é impulsionada pelo design centrado no usuário, que nos ajuda a entender as necessidades e expectativas dos usuários em seu contexto real, resultando em serviços e experiências mais humanas e satisfatórias.<br><br>
+        Por fim, nosso compromisso em fornecer soluções integradas é evidente em cada projeto em que trabalhamos, garantindo que consideremos todos os aspectos, desde as pesquisas iniciais até a implementação e entrega final.</p>
+      </div>
+
   </section>
   <img class="divisor_serviços" src="img/balls_effect.png">
   <section class="services">

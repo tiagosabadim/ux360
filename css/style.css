@@ -1,26 +1,39 @@
 
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0px 0px 36px 0px ;
+    margin: 0;
     padding: 0;
     background-color: #0A0D20;
 }
-/* Menu header */
-.menu {
-    display: flex;
-    position:absolute;
-    width: 100%;
-    justify-content:center;
-    align-items: center;
-    column-gap: 64px;
-    list-style: none;
+
+/* header */
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
     padding: 0;
+    margin: 0;
+}
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 16px;
+    margin: 0;
+    gap: 24px;
 }
 .menu__logo {
-    padding-top: 16px;
+        width: 111px;
+        height: 41.45px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 389px;
+    gap: 31px;
     list-style: none;
 }
 .menu__item a {
@@ -38,8 +51,12 @@ body {
     color:  #0047FF;
 }
 .menu__button[type="submit"] {
-    margin-left: 184px;
-    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
     color: #FFFFFF;
     background: #0047FF;
     border-radius: 0px;
@@ -52,63 +69,108 @@ body {
     cursor: pointer;
 }
 
-.arco {
-  position: absolute;
-  right: 0%;
-  top: 160px;
+/* Foto de fundo principal */
+.hero {
+    background-image: url(../img/Backgroundux360-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:left;
 }
 
-/* Home do site */
-.produto{
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
     position: absolute;
-    left: 15.03%;
-    bottom: 62%;
+    
+}
+.primeira_frase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 11px;
+    margin: 0;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 45px;
-    color: #FFFFFF;
-}
-#hero h1{
-    position: absolute;
-    left: 15.03%;
-    bottom: 56%;
-    font-family: 'Montserrat';
-    font-style: medium;
     font-weight: 400;
-    font-size: 55px;
-    line-height: 55px;
-    color: #ffffff;
-    margin: 0px 0px 0px 0px;
+    font-size: 17.9653px;
+    line-height: 22px;
+    color: #FFFFFF;   
 }
-#hero a{
-    font-weight: 800;
-    font-size: 75px;
-    line-height: 55px;
-    color:  #0047FF;  
+.chamada {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
 }
-.sucesso{
-    position: absolute;
-    width: 532px;
-    left: 15.03%;
-    bottom: 36%;
+.chamada h2{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 35px;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 24px;
+    margin: 0;
 }
+.palavra_chave {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.palavra_chave a{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 75.0647px;
+line-height: 92px;
+color: #0047FF;
+}
+.sublime {
+    width: 398.1px;
+    height: 29.8px; 
+}
+
+.segunda_frase{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 42px;
+    width: 465px;
+    height: 66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9653px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 .button-hero[type="submit"] {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 16px;
-    position: absolute;
-    left: 15.03%;
-    bottom: 25%;
+    padding: 9.54613px 19.0923px;
+    gap: 9.55px;
     color: #FFFFFF;
     background:  #0047FF;
     border-radius: 0px;
@@ -121,10 +183,15 @@ body {
     cursor: pointer;
 }
 .button-hero[type="submit"]:hover{
-    background: #F9C200;
+    background: #ffffff;
     color:  #0047FF;
     cursor: pointer;
 }
+.arco {
+    position: absolute;
+    right: 0%;
+    top: 160px;
+  }
 
 .divisor {
     position: absolute;
@@ -134,64 +201,63 @@ body {
     top: 83.5%;
 }
 
-/* Foto de fundo principal */
-.background-hero {
-    background: url(../img/Backgroundux360-min.jpg);
-    background-size: cover;
-    position:sticky;
+/*Section Sobre*/
+.sobre{
     width: 100%;
-    height: 90vh;
-    top: 0;
-    z-index: -1;
+    height: 800px;
+    background: #0C0C0C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
 }
 
-/*Section Sobre*/
-#sobre{
+.sobre_title{
     display: flex;
-    justify-content: center;
-    height: 780px;
-    background-color: #2C2C2C;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 10px;
+    gap: 10px;
+    padding-right: 624px;
+
 }
-.titulo_sobre{
-height: 200px;
-}
-.conteudo_sobre{
-    display: flex;
-    position: absolute;
-    align-items: center;
-    column-gap: 72px;
-    margin-top: 178px;
-    
-}
-#sobre h2{
-    position: absolute;
+.sobre_title h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
     line-height: 107px;
     color: #87898A;
-    left: 15.03%;
-    padding-top: 24px;
-    margin: 0;
 }
-#sobre a{
+.sobre_title a{
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 71.3333px;
+    line-height: 107px;
+    color: #87898A;
 }
-#sobre p{
-   
-    max-width: 500px;
+.conteudo_sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 51px;
+
+}
+.image-sobre{
+    width: 425px;
+    height: 373.55px;
+}
+.conteudo_sobre p{
+    width: 457px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 24px;
     color: #FFFFFF;
-}
-.image-sobre{
-    width: 495px;
-    height: auto;
 }
 
 .divisor_serviços{
@@ -707,3 +773,90 @@ margin: 0;
     inline-size: auto;
 }
 
+
+/* Responsividade do Site */
+
+@media only screen and (max-width: 1100px) {
+
+.menu {
+    padding: 0px 0px 0px 89px;
+    gap: 31px;
+}
+}
+
+
+@media only screen and (max-width: 820px) {
+
+    .menu {
+        padding: 0;
+        gap: 31px;
+    }
+    }
+
+@media only screen and (max-width: 414px) {
+.menu {
+    display: none;
+}
+.sobre{
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40.03px;
+}
+.sobre_title{
+    padding: 0;
+    flex-direction: column;
+}
+.sobre_title h2{
+width: 266px;
+height: 92px;
+font-weight: 300;
+font-size: 40.8839px;
+line-height: 91px;
+}
+.conteudo_sobre {
+    flex-direction: column;
+}
+.image-sobre{
+    width: 340px;
+    height: auto;
+}
+.conteudo_sobre p{
+    width: 362.11px;
+    font-size: 12px;
+}
+
+.services {
+    height: 2000px;
+}
+.text_services{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+}
+
+.text_services h4{
+width: 361px;
+height: 420px;
+font-weight: 400;
+font-size: 18.1666px;
+line-height: 30px;
+}
+.primary_colum {
+    flex-direction: column;
+}
+.secondary_colum {
+    flex-direction: column;
+}
+.footer{
+    flex-direction: column;
+    height: 700px;
+}
+}
+
+    
