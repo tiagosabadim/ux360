@@ -150,7 +150,7 @@ color: #0047FF;
 }
 
 .segunda_frase{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px 0px 42px;
@@ -978,19 +978,25 @@ line-height: 30px;
 footer{
     flex-direction: column;
     height: 980px;
-    gap: 72px;
+    gap: 48px;
     justify-content:flex-start;
     align-items: left;
 }
 .logo_end_footer{
     margin-left: 24px;
+    flex-direction: row;
+    align-items: center;
+}
+.end_footer{
+padding-top: 36px;
 }
 .links_footer {
-    margin-left: 24px;
+    margin-left: 48px;
     margin-top: 0;
+    gap: 120px;
 }
 .dados_footer{
-    margin-left: 24px;
+    margin-left: 48px;
 }
 .direitosreservados{
     margin-top: 952px;
