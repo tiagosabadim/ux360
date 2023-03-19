@@ -5,69 +5,85 @@ body {
     background-color: #0A0D20;
 }
 
-/* header */
+/* Header */
 header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 9999;
-    padding: 0;
-    margin: 0;
-}
-.header_container{
+    background-color: #fff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar */
+  .navbar {
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 16px;
-    margin: 0;
-    gap: 24px;
-}
-.menu__logo {
-        width: 111px;
-        height: 41.45px;
-}
-.menu {
+    height: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Navbar Logo */
+  .navbar__logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Navbar Menu Icon */
+  .navbar__menu-icon {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 0px 0px 389px;
-    gap: 31px;
-    list-style: none;
-}
-.menu__item a {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12.9259px;
-    line-height: 16px;
-    transition: .5s;
-    color: white;
-    text-decoration: none;
-    padding-top: 16px;
-}
-.menu__item a:hover {
-    color:  #0047FF;
-}
-.menu__button[type="submit"] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    gap: 8px;
-    color: #FFFFFF;
-    background: #0047FF;
-    border-radius: 0px;
-    border: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
     cursor: pointer;
-}
+    padding: 5px;
+  }
+  
+  .navbar__menu-icon span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  /* Navbar Menu */
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 998;
+  }
+  
+  .navbar__menu li {
+    margin: 0;
+  }
+  
+  .navbar__menu li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Show Navbar Menu on Click */
+  .navbar__menu--active {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
 
 /* Foto de fundo principal */
 .hero {
