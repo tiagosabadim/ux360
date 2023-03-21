@@ -2,9 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0A0D20;
+    background-color: #F7F7F7;
 }
-
 /* Header */
 header {
     position: absolute;
@@ -12,9 +11,7 @@ header {
     left: 0;
     right: 0;
     z-index: 998;
-
-}
-  
+}  
 /* Navbar */
 .navbar {
     display: flex;
@@ -23,14 +20,12 @@ header {
     height: 100%;
     padding: 0;
 }
-
 /* Navbar Logo */
 .navbar__logo img {
     margin-left: 24px;
     height: 40px;
     width: 100%;
-}
-  
+}  
 /* Navbar Menu Icon */
 .navbar__menu-icon {
     display: flex;
@@ -40,15 +35,13 @@ header {
     height: 20px;
     cursor: pointer;
     padding: 5px;
-}
- 
+} 
 .navbar__menu-icon span {
     display: block;
     height: 2px;
     width: 30px;
     background-color: #ffffff;
-}
-  
+}  
 /* Navbar Menu */
 .navbar__menu {
     top:60px;
@@ -64,31 +57,25 @@ header {
     background-color: #0A0D20;
     z-index: 999;
 }
-  
 .navbar__menu li {
     margin: 0;
 }
-  
 .navbar__menu li a {
     display: block;
     padding: 10px;
     color: #FFFFFF;
     text-decoration: none;
 }
-  
 /* Show Navbar Menu on Click */
 .navbar__menu--active {
     display: flex;
     flex-direction: column;
 }
-
-
 /* Home Section */
 .home-section {
     height: 100vh;
     overflow: hidden;
 }
-  
 .home-section__background {
     background-image: url('../img/background_mobile.jpg');
     background-size: cover;
@@ -100,7 +87,6 @@ header {
     bottom: 0;
     z-index: -1;
 }
-
 .home-section__content {
     display: flex;
     flex-direction: column;
@@ -119,10 +105,8 @@ header {
     padding: 0px;
     gap: 4px;
     width: 253px;
-    height: 171px;
-    
+    height: 171px;  
 }
-
 .text_home {
     width: 200px;
     height: 78px;
@@ -142,7 +126,6 @@ header {
     width: 253px;
     height: 91px; 
 }
-
 .home-section__up h3{
     width: 253px;
     height: 88px;
@@ -152,17 +135,13 @@ header {
     font-size: 36px;
     line-height: 44px;
     color: #0047FF;
-    margin: 0;
-    
+    margin: 0;   
 }
-
 .up {
     width: 51.67px;
     height: 31px;
-
     margin: -88px 0px;
 }
-
 .home-section__button{
     display: flex;
     flex-direction: column;
@@ -170,9 +149,7 @@ header {
     padding: 0px;
     gap: 105px;
     width: 165px;
- 
 }
-
 .home_button {
     display: flex;
     flex-direction: row;
@@ -184,21 +161,108 @@ header {
     height: 38px;
     background: rgba(0, 71, 255, 0.74);
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17.7311px;
-line-height: 22px;
-color: #FFFFFF;
-border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.7311px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-style: none;
 }
 .down_button {
     width: 60.11px;
     height: 62.3px;
 }
+/* Sobre Section */
+#sobre-section {
+    background-color: #F7F7F7;
+    height: 1200px;
+    padding: 0;
+    top: 0; 
+}
+
+.sobre-section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px;
+    gap: 24px;
+    width: 341px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
 
 
+}
+.sobre-section_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px; 
+    margin-top: 48px;
+}
+.icon_sobre{
+    width: 49px;
+    height: 44.1px; 
+}
+.sobre-section_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.sobre-section_title_text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.8167px;
+    line-height: 29px;
+    color: #8C8C8C;
+    margin: 0;
+}
+.sobre-section_title_text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.3406px;
+    line-height: 31px;
+    color: #0047FF;
+    margin: 0;
+}
 
-
+.sobre-section_img{
+    width: 324px;
+    height: 332px;
+}
+.sobre-section_text{
+width: 341px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #8C8C8C;
+}
+.sobre_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9px 16px;
+    gap: 8px;
+    width: 341px;
+    height: 42px;
+    background: rgba(0, 71, 255, 0.74);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.7311px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-style: none;
+}
+/* Footer Section */
 footer{
     background: url(../img/footer_ux360.jpg);
     width: 100%;
