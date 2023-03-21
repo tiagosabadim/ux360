@@ -45,7 +45,7 @@ header {
 /* Navbar Menu */
 .navbar__menu {
     top:60px;
-    height:880px;
+    height: 90vh;
     display: none;
     flex-direction: column;
     list-style: none;
@@ -270,10 +270,68 @@ color: #8C8C8C;
 
 /* Serviços Section */
 #service-section {
+    background-color: #ffffff;
     height: 1200px;
-    background-color: #FFFFFF;
-    margin: 0;
     padding: 0;
+    top: 0; 
+}
+.service-section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px;
+    gap: 24px;
+    width: 341px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.service-section_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px; 
+    margin-top: 48px;
+}
+.icon_service{
+    width: 49px;
+    height: 44.1px; 
+}
+.service-section_title_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.service-section_title_text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.8167px;
+    line-height: 29px;
+    color: #8C8C8C;
+    margin: 0;
+}
+.service-section_title_text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.3406px;
+    line-height: 31px;
+    color: #017CD6;
+    margin: 0;
+}
+
+.service-section_text{
+width: 341px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #8C8C8C;
 }
 
 /* Footer Section */
@@ -335,6 +393,7 @@ padding-top: 36px;
     flex-grow: 0;
     margin: 0;
 }
+/*Menu */
 .links_footer {
     margin-left: 32px;
     margin-top: 0;
@@ -345,7 +404,6 @@ padding-top: 36px;
     padding: 0px;
     margin-top: 48px;
 }
-
 .menu_footer {
     display: flex;
     flex-direction: column;
@@ -409,7 +467,6 @@ padding-top: 36px;
     color: white;
     text-decoration: none;
 }
-
 .dados_footer{
 margin-left: 32px;
 display: flex;
@@ -419,7 +476,6 @@ padding: 0px;
 gap: 62.85px;
 margin-top: 48px;
 }
-
 /*Contatos*/
 .contatos_footer {
 display: flex;
@@ -472,7 +528,6 @@ gap: 20.31px;
     color: #FFFFFF;
     margin: 0;
 }
-
 .icons_redes {
     display: flex;
     flex-direction: row;
