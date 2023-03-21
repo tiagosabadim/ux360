@@ -56,15 +56,23 @@ header {
     right: 0;
     background-color: #0A0D20;
     z-index: 999;
+    padding-top: 24px;
 }
 .navbar__menu li {
-    margin: 0;
+    margin-top: 32px;
+    margin-left: 32px;
 }
 .navbar__menu li a {
     display: block;
     padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 36px;    
+    line-height: 44px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 0;
 }
 /* Show Navbar Menu on Click */
 .navbar__menu--active {
